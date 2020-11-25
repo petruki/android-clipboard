@@ -29,7 +29,6 @@ namespace AndroidClipboard
             };
 
             process = Process.Start(processInfo);
-            process.WaitForExit();
             process.Close();
         }
 
